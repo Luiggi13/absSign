@@ -1,0 +1,135 @@
+/* rwd*/
+
+@media (max-width: 767px) and (orientation : portrait){
+/*body.login{padding-top:30px;}*/
+  body.login .row{margin: auto;height: 500px;position: absolute;top: 0px;left: 0px;bottom: 0px;right: 0px;width: 90%;  }
+}
+@media (max-width: 767px)  {
+  body.splash{background: transparent url(../img/absSplash767.png) no-repeat center center;}
+
+  #loginFirmador .filaInput{width:100%;padding:10px 50px;background-color:rgba(255,255,255,0.3);margin-bottom:25px;height:40px;}
+  .filaInput.usrDv, .filaInput.pwdDv{float:left;width:49%;}
+  #loginFirmador input{width:100%;height:100%;background-color:transparent;border:none;color:#fff;}
+  .row .col-md-12.logoLogin img{width:260px; height:119px;}
+  .row .col-md-12.logoLogin {   height: 100px;margin-top:25px;}
+  .filaInput.usrDv{margin-right:2%;}
+  .filaInput.entDv{float:left;}
+  .filaSubmit button[type="submit"]{width:100%;height:75%;font-size:2em;}
+}
+
+
+@media (max-width: 767px) and (orientation : landscape) {
+  body.splash{background: transparent url(../img/absSplash767.png) no-repeat center center;}
+body.login{padding-top:20px;}
+  #loginFirmador .filaInput{padding:10px 50px;background-color:rgba(255,255,255,0.3);margin-bottom:25px;height:40px;float: left;
+width: 49%;clear: both;}
+  .filaInput.usrDv, .filaInput.pwdDv{float:left;width:49%;}
+  #loginFirmador input{width:100%;height:100%;background-color:transparent;border:none;color:#fff;}
+  .row .col-md-12.logoLogin img{width:260px; height:119px;}
+  .row .col-md-12.logoLogin {   height: 100px;margin-top:25px;}
+  .filaInput.usrDv{margin-right:2%;}
+  .filaInput.entDv{float:left;}
+  .filaSubmit {width:49%;height:40px;font-size:1em;float:left;margin-left:1%;}
+  .filaSubmit button[type="submit"]{width:100%;height:100%;font-size:1em;}
+  .smartLandscape{display:block!important;}
+  .logoLogin{display:none!important;}
+  .filaSubmit button[type="submit"], a.loguearse{line-height:28px;}
+
+
+
+}
+
+@media (min-width: 768px) and (orientation : landscape){
+  body.login{padding-top:50px;}
+}
+@media (min-width: 768px) and (orientation : portrait){
+
+}
+@media (min-width: 768px) {
+
+  body.splash{background: transparent url(../img/absSplash767.png) no-repeat center center;}
+  #loginFirmador .filaInput{width:100%;padding:10px 50px;background-color:rgba(255,255,255,0.3);margin-bottom:30px;height:60px;}
+    .filaInput.usrDv, .filaInput.pwdDv{float:left;width:49%;}
+  #loginFirmador input{width:100%;height:100%;background-color:transparent;border:none;color:#fff;}
+  .row .col-md-12.logoLogin {   height: 130px;margin-top:15px;}
+  .row .col-md-12.logoLogin img{}
+    .filaInput.usrDv{margin-right:2%;}
+    .filaInput.entDv{float:left;}
+    .filaSubmit {width:100%;height:60px;font-size:1em;float:left;margin-left:0;}
+    .filaSubmit button[type="submit"], a.loguearse {
+    width: 100%;
+    height: 100%;
+    font-size: 2em;
+    line-height: 41px;}
+    /*body.login .row{margin: auto;height: 60%;position: absolute;top: 0px;left: 0px;bottom: 0px;right: 0px;width: 90%;  }*/
+}
+@media (max-width: 991px) and (orientation : landscape) {
+  body.splash{background: transparent url(../img/absSplash767.png) no-repeat center center;}
+
+  #loginFirmador .filaInput{padding:10px 50px;background-color:rgba(255,255,255,0.3);margin-bottom:25px;height:40px;float: left;
+width: 49%;clear: both;}
+  .filaInput.usrDv, .filaInput.pwdDv{float:left;width:49%!important;}
+  #loginFirmador input{width:100%;height:100%;background-color:transparent;border:none;color:#fff;}
+  .row .col-md-12.logoLogin img{width:260px; height:119px;}
+  .row .col-md-12.logoLogin {   height: 100px;margin-top:25px;}
+  .filaInput.usrDv{margin-right:2%;}
+  .filaInput.entDv{float:left; width:49%!important;}
+  .filaSubmit {width:49%;height:40px;font-size:1em;float:left;margin-left:1%;}
+  .filaSubmit button[type="submit"]{width:100%;height:100%;font-size:1em;}
+  .smartLandscape{display:block!important;}
+  .logoLogin{display:none!important;}
+}
+
+@media (min-width: 992px) {
+  body.splash{background: transparent url(../img/absSplash767.png) no-repeat center center;}
+  /*body {padding-top: 20px}*/
+  body.login .row{margin: auto;height: 500px;position: absolute;top: 0px;left: 0px;bottom: 0px;right: 0px;width: 90%;  }
+  #loginFirmador .filaInput{width:49%;padding:15px 50px;background-color:rgba(255,255,255,0.3);margin-bottom:30px;height:60px;clear:left;}
+    .filaInput.usrDv, .filaInput.pwdDv{float:left;width:49%;}
+  #loginFirmador input{width:100%;height:100%;background-color:transparent;border:none;color:#fff;}
+  .row .col-md-12.logoLogin {   height: 130px;margin-top:15px;}
+  .row .col-md-12.logoLogin img{}
+    .filaInput.usrDv{margin-right:2%;}
+    .filaInput.entDv{float:left;}
+    .filaSubmit {width:49%;height:60px;font-size:1em;float:left;margin-left:1%;}
+    body{padding-top:0px;}
+    .logoLogin{display:none!important;}
+    .smartLandscape{display:block!important;}
+}
+@media (min-width: 1200px) {
+  body.splash{background: transparent url(../img/absSplash.png) no-repeat center center;}
+  #loginFirmador{width:100%;}
+  #loginFirmador .filaInput{width:100%!important;padding:25px 50px;background-color:rgba(255,255,255,0.3);margin-bottom:30px;height:100px;}
+    .filaInput.usrDv, .filaInput.pwdDv{float:left;width:49%;}
+  #loginFirmador input{width:100%;height:100%;background-color:transparent;border:none;color:#fff;}
+  .row .col-md-12.logoLogin img{}
+    .filaInput.usrDv{margin-right:2%;}
+    .filaInput.entDv{float:left;}
+    .logoLogin{display:block!important;}
+    .smartLandscape{display:none!important;}
+    .filaSubmit {width:100%;margin:0 0 20px 0;}
+}
+
+@media only screen and (min-width : 1824px) {
+body.splash{background: transparent url(../img/absSplash.png) no-repeat center center;}
+/*
+background-image:url('http://besiberri01:8080/html5/img/absSplash.png');
+background-repeat: no-repeat;
+bbackground-position: center center;
+background-color:red;
+*/
+#loginFirmador .filaInput{width:100%;padding:25px 50px;background-color:rgba(255,255,255,0.3);margin-bottom:30px;height:100px;}
+  .filaInput.usrDv, .filaInput.pwdDv{float:left;width:49%;}
+#loginFirmador input{width:100%;height:100%;background-color:transparent;border:none;color:#fff;}
+.row .col-md-12.logoLogin img{}
+  .filaInput.usrDv{margin-right:2%;}
+  .filaInput.entDv{float:left;}
+  .testing{width:500px;height:500px;background-color:black;position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;display:block;}
+}
+
+@media only screen and (min-width : 1824px) {
+/* pantalles molt grans */
+  /*.testing{width:500px;height:500px;background-color:black;position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;display:block;}*/
+  }body.login .row{margin: auto;height: 700px;position: absolute;top: 0px;left: 0px;bottom: 0px;right: 0px;width: 90%;  }
+}
+/* rwd*/
