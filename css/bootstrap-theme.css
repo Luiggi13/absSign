@@ -437,10 +437,10 @@
 /* USER CSS*/
 
 html, body{
-  height: 100%;width: 100%;background-color: #295f77;
+  height: 100%;width: 100%;background-color: #fff;
   /*overflow: hidden;*/
 }
-  
+
   .row{margin:0;height: 100%;}
 /*barra menu*/
 .header, .filtros {
