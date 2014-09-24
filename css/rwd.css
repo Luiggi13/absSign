@@ -1,13 +1,26 @@
 /* rwd*/
 
 @media (max-width: 767px) and (orientation : portrait){
-body{background-color:red;}
+/*bq aquaris e5 vertical*/
+body{background:white url('../images/nenes.jpg') no-repeat top left!important;
+background-size: cover!important;}
+.overlay-home{position:absolute;top:0;right:0;
+  background:transparent url('../images/cuore.png') no-repeat bottom left!important;
+}
+}
 
 
 }
 @media (max-width: 767px)  {
-body{background-color:blue;}
+  /*bq aquaris e5*/
+body{background:white url('../images/nenes.jpg') no-repeat top left!important;
+background-size: cover!important;width:100%;height:100%;
 }
+.overlay-home{position:absolute;top:0;right:0;
+  background:transparent url('../images/cuore.png') no-repeat bottom left!important;
+}
+
+
 
 
 @media (max-width: 767px) and (orientation : landscape) {
@@ -27,7 +40,13 @@ body{background-color:cyan;}
 body{background-color:grey;}
 }
 @media (max-width: 991px) and (orientation : landscape) {
-body{background-color:purple;}
+  /*bq aquaris e5 horizontal*/
+body{background:white url('../images/nenes.jpg') no-repeat top left!important;
+background-size: cover!important;width:100%;height:100%;}
+.overlay-home{position:absolute;top:0;right:0;
+  background:transparent url('../images/cuore.png') no-repeat bottom left!important;
+}
+
 }
 
 @media (min-width: 992px) {

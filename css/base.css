@@ -16,12 +16,16 @@ html, body{
   margin:0;
   /*background:white url('../images/marvel1.jpg') no-repeat top left;
   background-size:cover;*/
-  background-color:#fff;
+  /*background-color:#fff;*/
+  background:white url('../images/nenes.jpg') no-repeat top left!important;
 
 
 }
 /* Sticky footer styles
 -------------------------------------------------- */
+.overlay-home{position:absolute;top:0;right:0;display:none;width:10%;height:10%;
+  background:transparent url('../images/cuore.png') no-repeat top left!important;
+}
 
 
 
